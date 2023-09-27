@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+section {
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.message {
+    font-size: 24px;
+    font-family: monospace;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    border: none;
+    height: 4rem;
+    width: 8rem;
+    background-color: #ff0000d1;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:first-of-type {
+    background-color: #04AA6D;
+}
+
+button:last-of-type {
+    position: relative; 
+    /* top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);  */
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+}
